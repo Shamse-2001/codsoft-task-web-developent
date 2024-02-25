@@ -1,75 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Body styles */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: rgb(78, 170, 226);
-    padding: 0;
-  }
-  
-  header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-  }
-  
-  header h1 {
-    margin: 0;
-  }
-  
-  #about1 {
-    text-align: center;
-    padding: 1px 0;
-  }
-  #about {
-    text-align: center;
-    padding: 20px 0;
-  }
-  
-  #about img {
-    width: 90px;
-    border-radius: 30%;
-  }
-  
-  #skills {
-    text-align: left;
-    padding: 10px 0;
-  }
-  
-  #skills ul {
-    list-style: none;
-  }
-  
-  #projects {
-    text-align: center;
-    padding: 20px 0;
-  }
-  
-  .project {
-    margin-bottom: 20px;
-  }
-  
-  .project img {
-    max-width: 100%;
-    border-radius: 5px;
-  }
-  
-  #resume,
-  #contact {
-    text-align: center;
-    padding: 20px 0;
-  }
-  
-  #resume a {
-    text-decoration: none;
+    background-color: #f32b2b;
     color: #333;
-    border: 1px solid #333;
-    padding: 10px 20px;
-    border-radius: 5px;
-  }
-  
-  footer {
-    background-color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #0074D9;
     color: #fff;
     text-align: center;
-    padding: 20px 0;
-  }
+    padding: 2rem 0;
+}
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* About section styles */
+#about {
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+#about img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+/* Skills section styles */
+#skills {
+    background-color: #f9f9f9;
+    padding: 2rem;
+}
+
+#skills h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+#skills ul {
+    list-style: none;
+}
+
+#skills li {
+    margin-bottom: 0.5rem;
+}
+
+/* Projects section styles */
+#projects {
+    background-color: #fff;
+    padding: 2rem;
+}
+
+.project {
+    margin-bottom: 2rem;
+}
+
+.project img {
+    max-width: 100%;
+}
+
+/* Resume section styles */
+#resume {
+    background-color: #f9f9f9;
+    padding: 2rem;
+}
+
+/* Contact section styles */
+#contact {
+    background-color: #0074D9;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+}
